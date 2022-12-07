@@ -31,12 +31,31 @@
     margin: 20px 0px;
 }
 
-.widgetSmUser {
+.wigetSmUser {
     display: flex;
     flex-direction: column;
 }
 
-.widgetSmUsername {
+.wigetSmUsername {
     font-weight: 600;
 }
 
+.widgetSmUserTitle {
+    font-weight: 300;
+}
+
+.widgetSmButton {
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 10px;
+    padding: 7px 10px;
+    background-color: #eeeef7;
+    color: #555;
+    cursor: pointer;
+}
+
+.widgetSmicon {
+    font-style: 16px !important;
+    margin-right: 5px;
+}
